@@ -1,0 +1,77 @@
+ /*teextoh1*/
+
+.gato {
+animation-duration: 4s;
+-webkit-animation-duration: 4s;
+
+animation-fill-mode: both;
+-webkit-animation-fill-mode: both;
+
+animation-name: gato;
+-webkit-animation-name: gato;
+}
+
+
+@keyframes gato {
+
+from{opacity: 0;}
+
+to{opacity: 1;}
+
+}
+
+ /*animacion para nav*/
+
+.nav {
+animation-duration: 2s;
+-webkit-animation-duration: 2s;
+
+animation-fill-mode: both;
+-webkit-animation-fill-mode: both;
+
+animation-name: nav;
+-webkit-animation-name: nav;
+}
+
+
+@keyframes nav {
+
+from{opacity: 0;
+-webkit-transform: translate3d(0,-100,0);
+transform: translate3d(0,-100,0);}
+
+to{opacity: 1;
+-webkit-transform: translate3d(0,0,0);
+transform: translate3d(0,0,0);}
+
+}
+
+
+
+
+
+
+/*animacion para section*/
+
+
+.free {
+animation-duration: 1.5s;
+-webkit-animation-duration: 1.5s;
+
+animation-fill-mode: both;
+-webkit-animation-fill-mode: both;
+
+animation-name: free;
+-webkit-animation-name: free;
+}
+
+
+@keyframes free {
+
+from{opacity: 0;
+-webkit-transform: translate3d(0,100%,0);
+transform: translate3d(0,100%,0);}
+
+to{opacity: 1;
+-webkit-transform: translate3d(0,0,0);
+transform: translate3d(0,0,0);}}

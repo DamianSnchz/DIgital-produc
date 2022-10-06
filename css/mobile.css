@@ -1,0 +1,37 @@
+@media (max-width: 600px){
+
+.conteiner {
+display: flex;
+height: 100vh;
+flex-direction: column;}
+
+
+.conteiner .columna {
+    margin-top: -50px;
+    width: 50vh;
+    margin-bottom: 5vh;
+}
+
+.section_conteiner{ 
+ flex-direction: column;
+ }
+
+.section_conteiner .section_columna {
+width: 50vh;
+text-align: center; 
+}
+
+.section_conteiner .section_columna .section_img{
+display: flex;
+justify-content: center; 
+}
+
+.section_2 .section_conteiner{
+align-items: center; 
+ }
+
+.section_2 .section_conteiner .section_columna{
+width: 45vh;
+ margin-bottom: 20px;}
+
+}
